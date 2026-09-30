@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio cá nhân của Đào Nhật Quang, sinh viên công nghệ thông tin yêu thích phát triển web.">
+    <meta name="theme-color" content="#f7f8fc">
+    <title>Đào Nhật Quang — Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Điều hướng chính">
+            <a class="brand" href="#home" aria-label="Đào Nhật Quang, về đầu trang">q<span>.</span></a>
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+            <div class="nav-links" id="nav-links">
+                <a href="#about">Giới thiệu</a><a href="#skills">Kỹ năng</a><a href="#projects">Dự án</a><a href="#contact">Liên hệ</a>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Bật giao diện tối" title="Đổi giao diện"><span class="theme-icon" aria-hidden="true">☾</span></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> SINH VIÊN CÔNG NGHỆ THÔNG TIN</p>
+                <h1>Xin chào, mình là<br><span>Đào Nhật Quang</span></h1>
+                <p class="hero-description">Mình yêu thích công nghệ và đang từng bước biến những ý tưởng nhỏ thành trải nghiệm web hữu ích, chỉn chu.</p>
+                <div class="hero-actions"><a class="button button-primary" href="#projects">Khám phá dự án <span aria-hidden="true">↗</span></a><a class="button button-quiet" href="#contact">Kết nối với mình</a></div>
+                <div class="hero-meta"><span>📍 Việt Nam</span><span>🎓 D25CQCC05-B</span></div>
+            </div>
+            <div class="hero-art" aria-label="Minh họa chân dung lập trình viên" role="img">
+                <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+                <div class="art-card"><div class="art-window"><i></i><i></i><i></i></div><div class="code-lines"><span>&lt;hello /&gt;</span><b>creative</b><b>curious</b><b>always learning</b></div><div class="art-avatar">Q</div></div>
+                <span class="float-chip chip-code">&lt;/&gt;</span><span class="float-chip chip-sparkle">✳</span><span class="float-chip chip-heart">♡</span>
+            </div>
+        </section>
+        <section class="section about-section" id="about">
+            <div class="container about-grid reveal">
+                <div><p class="eyebrow">MỘT CHÚT VỀ MÌNH</p><h2>Học hỏi mỗi ngày,<br><span>tốt hơn từng chút.</span></h2></div>
+                <div class="about-copy">
+                    <p>Mình là Đào Nhật Quang, sinh viên ngành Công nghệ thông tin. Mình hứng thú với việc xây dựng website, khám phá cách công nghệ giải quyết vấn đề và không ngại bắt đầu từ những điều cơ bản.</p>
+                    <p>Ngoài giờ học, mình thích đánh cầu lông, chơi game, nghe nhạc và xem phim — những khoảng nghỉ giúp mình nạp lại năng lượng và tìm thêm cảm hứng.</p>
+                    <div class="about-facts">
+                        <div><span>Họ và tên</span><strong>Đào Nhật Quang</strong></div><div><span>Mã sinh viên</span><strong>B25DCCC185</strong></div>
+                        <div><span>Đang tập trung</span><strong>Phát triển web</strong></div><div><span>Trạng thái</span><strong><span class="status-dot"></span> Luôn sẵn sàng học hỏi</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section container" id="skills">
+            <div class="section-heading reveal"><div><p class="eyebrow">BỘ CÔNG CỤ CỦA MÌNH</p><h2>Kỹ năng <span>& sở thích</span></h2></div><p>Những điều mình đang học và yêu thích trên hành trình khám phá công nghệ.</p></div>
+            <div class="skills-grid">
+                <article class="skill-card reveal"><span class="skill-icon icon-orange">⌘</span><h3>HTML & CSS</h3><p>Xây dựng cấu trúc rõ ràng, giao diện responsive và thân thiện.</p><span class="skill-level">ĐANG HỌC</span></article>
+                <article class="skill-card reveal"><span class="skill-icon icon-blue">JS</span><h3>JavaScript</h3><p>Thêm tương tác cho website và rèn luyện tư duy lập trình.</p><span class="skill-level">ĐANG HỌC</span></article>
+                <article class="skill-card reveal"><span class="skill-icon icon-purple">▦</span><h3>UI & thiết kế</h3><p>Quan tâm đến bố cục, màu sắc và trải nghiệm người dùng.</p><span class="skill-level">ĐANG TÌM HIỂU</span></article>
+                <article class="skill-card reveal"><span class="skill-icon icon-green">♡</span><h3>Sở thích</h3><p>Cầu lông, game, âm nhạc và những bộ phim hay.</p><span class="skill-level">LUÔN YÊU THÍCH</span></article>
+            </div>
+        </section>
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal"><div><p class="eyebrow">LÀM THỬ, HỌC THẬT</p><h2>Một vài <span>dự án</span></h2></div><p>Mỗi dự án là một cơ hội thực hành và hiểu sâu hơn về cách web hoạt động.</p></div>
+                <div class="project-tools reveal">
+                    <label class="search-box"><span aria-hidden="true">⌕</span><input id="project-search" type="search" placeholder="Tìm dự án hoặc công nghệ..." aria-label="Tìm dự án"></label>
+                    <div class="filter-list" role="group" aria-label="Lọc dự án"><button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Tất cả</button><button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button><button class="filter-button" type="button" data-filter="javascript" aria-pressed="false">JavaScript</button></div>
+                </div>
+                <div class="projects-grid" id="projects-grid">
+                    <article class="project-card reveal" data-tags="web javascript calculator máy tính">
+                        <div class="project-visual visual-calculator"><span class="visual-label">01 / MINI APP</span><div class="mini-calculator"><span>12 × 3</span><strong>36</strong><i>＋　－　×　÷</i></div></div>
+                        <div class="project-content"><div class="project-topline"><span class="project-type">THỰC HÀNH JAVASCRIPT</span><span class="project-arrow">↗</span></div><h3>Máy tính bỏ túi</h3><p>Ứng dụng máy tính đơn giản để luyện thao tác DOM và xử lý sự kiện.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="Máy%20Tính.html">Xem dự án <span aria-hidden="true">→</span></a></div>
+                    </article>
+                    <article class="project-card reveal" data-tags="web portfolio html css responsive">
+                        <div class="project-visual visual-portfolio"><span class="visual-label">02 / WEBSITE</span><div class="mini-browser"><div class="browser-bar">● ● ●</div><div class="browser-body"><span>HELLO, WORLD</span><b>Build something<br>meaningful.</b><i></i></div></div></div>
+                        <div class="project-content"><div class="project-topline"><span class="project-type">GIAO DIỆN RESPONSIVE</span><span class="project-arrow">↗</span></div><h3>Portfolio cá nhân</h3><p>Trang giới thiệu bản thân với thiết kế linh hoạt trên nhiều kích thước màn hình.</p><div class="tag-list"><span>HTML</span><span>CSS Grid</span><span>Responsive</span></div><a class="project-link" href="#home">Bạn đang xem dự án này <span aria-hidden="true">↗</span></a></div>
+                    </article>
+                    <article class="project-card reveal" data-tags="javascript web interactive tương tác">
+                        <div class="project-visual visual-playground"><span class="visual-label">03 / EXPERIMENT</span><div class="playground-art"><span>✳</span><b>make<br>it move.</b><i>↗</i></div></div>
+                        <div class="project-content"><div class="project-topline"><span class="project-type">Ý TƯỞNG ĐANG PHÁT TRIỂN</span><span class="project-arrow">↗</span></div><h3>Góc tương tác</h3><p>Không gian thử nghiệm các hiệu ứng nhỏ và ý tưởng tương tác trên web.</p><div class="tag-list"><span>JavaScript</span><span>Animation</span><span>UI</span></div><a class="project-link" href="#contact">Trao đổi ý tưởng <span aria-hidden="true">→</span></a></div>
+                    </article>
+                </div>
+                <p class="no-results" id="no-results" hidden>Chưa tìm thấy dự án phù hợp. Thử từ khóa khác nhé!</p>
+            </div>
+        </section>
+        <section class="section container contact-section" id="contact">
+            <div class="contact-intro"><p class="eyebrow">CÙNG BẮT ĐẦU MỘT CUỘC TRÒ CHUYỆN</p><h2>Có ý tưởng hay?<br><span>Mình muốn nghe!</span></h2><p>Nếu bạn muốn trao đổi về học tập, công nghệ hoặc một dự án thú vị, hãy để lại lời nhắn nhé.</p><a class="email-link" href="#contact-form">Gửi lời nhắn cho mình <span aria-hidden="true">↘</span></a></div>
+            <form class="contact-form" id="contact-form" novalidate>
+                <div class="form-row"><label for="contact-name">Tên của bạn</label><input id="contact-name" name="name" type="text" placeholder="Ví dụ: Nguyễn An" autocomplete="name" required><small class="field-error" id="name-error"></small></div>
+                <div class="form-row"><label for="contact-email">Email</label><input id="contact-email" name="email" type="email" placeholder="ban@email.com" autocomplete="email" required><small class="field-error" id="email-error"></small></div>
+                <div class="form-row"><label for="contact-message">Lời nhắn <span class="label-note">(tối thiểu 20 ký tự)</span></label><textarea id="contact-message" name="message" rows="4" maxlength="500" placeholder="Bạn đang nghĩ gì vậy?" required></textarea><div class="message-meta"><small class="field-error" id="message-error"></small><small><span id="char-count">0</span>/500</small></div></div>
+                <button class="button button-primary submit-button" type="submit">Gửi lời nhắn <span aria-hidden="true">↗</span></button><p class="form-status" id="form-status" role="status" aria-live="polite"></p><p class="form-note">Form minh họa giao diện, chưa kết nối dịch vụ gửi tin nhắn.</p>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#home" aria-label="Về đầu trang">q<span>.</span></a><p>Được làm với sự tò mò và một chút <span aria-label="tình yêu">♡</span> bởi Quang.</p><p>© <span id="current-year"></span> Đào Nhật Quang · B25DCCC185</p></div></footer>
+</body>
+</html>
